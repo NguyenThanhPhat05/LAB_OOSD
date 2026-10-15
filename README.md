@@ -15,4 +15,4 @@ Repository này lưu trữ các bài thực hành (Lab) của học phần:
 * `LAB2/` - Bài tập Lab 2
 * `LAB3/` - Bài tập Lab 3
 * `LAB4/` - Bài tập Lab 4
-*(Các bài Lab tiếp theo sẽ được cập nhật tại đây)*
+* `LAB5/` - Bài tập Lab 5
