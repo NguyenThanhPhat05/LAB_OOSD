@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="2ZPYTuey6g2vZ6WxiDKy">
+    <mxGraphModel dx="643" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\nskinparam backgroundColor #FFFFFF\nskinparam ArrowColor #B22222\nskinparam UseCaseBorderColor #B22222\nskinparam UseCaseBackgroundColor #FFFDD0\nskinparam UseCaseFontColor #000000\n\nusecase \&quot;Đăng ký tour\\ntheo đoàn\&quot; as UC_Root\nusecase \&quot;Quản lý khách đoàn\&quot; as UC1\nusecase \&quot;Lập phiếu đăng ký đoàn\&quot; as UC2\nusecase \&quot;Kiểm tra tour,\\nngày đi hợp lệ\&quot; as UC3\nusecase \&quot;Ghi nhận danh sách người đi\&quot; as UC4\nusecase \&quot;Ghi nhận đặt cọc\&quot; as UC5\nusecase \&quot;Hủy đăng ký - mất cọc\&quot; as UC6\n\nUC1 .&gt; UC_Root : &lt;&lt;extend&gt;&gt;\nUC2 .&gt; UC_Root : &lt;&lt;extend&gt;&gt;\nUC2 .&gt; UC3 : &lt;&lt;include&gt;&gt;\nUC4 .&gt; UC_Root : &lt;&lt;extend&gt;&gt;\nUC5 .&gt; UC_Root : &lt;&lt;extend&gt;&gt;\nUC6 .&gt; UC_Root : &lt;&lt;extend&gt;&gt;\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="EzRNL6KI-fqMMfQgICtc-64">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Đăng ký tour&lt;br&gt;theo đoàn" plantUmlId="uc_0" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Đăng ký tour&lt;br&gt;theo đoàn" id="EzRNL6KI-fqMMfQgICtc-65">
+          <mxCell parent="EzRNL6KI-fqMMfQgICtc-64" style="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="52" width="127" x="1140" y="661" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Quản lý khách đoàn" plantUmlId="uc_1" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Quản lý khách đoàn" id="EzRNL6KI-fqMMfQgICtc-66">
+          <mxCell parent="EzRNL6KI-fqMMfQgICtc-64" style="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="37" width="163" x="1490.2" y="520" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Lập phiếu đăng ký đoàn" plantUmlId="uc_2" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Lập phiếu đăng ký đoàn" id="EzRNL6KI-fqMMfQgICtc-67">
+          <mxCell parent="EzRNL6KI-fqMMfQgICtc-64" style="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="42" width="188" x="1477.8" y="592" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Kiểm tra tour,&lt;br&gt;ngày đi hợp lệ" plantUmlId="uc_3" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Kiểm tra tour,&lt;br&gt;ngày đi hợp lệ" id="EzRNL6KI-fqMMfQgICtc-68">
+          <mxCell parent="EzRNL6KI-fqMMfQgICtc-64" style="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="52" width="143" x="1500.4" y="669" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ghi nhận danh sách người đi" plantUmlId="uc_4" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Ghi nhận danh sách người đi" id="EzRNL6KI-fqMMfQgICtc-69">
+          <mxCell parent="EzRNL6KI-fqMMfQgICtc-64" style="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="48" width="214" x="1465" y="756" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ghi nhận đặt cọc" plantUmlId="uc_5" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Ghi nhận đặt cọc" id="EzRNL6KI-fqMMfQgICtc-70">
+          <mxCell parent="EzRNL6KI-fqMMfQgICtc-64" style="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="34" width="147" x="1498.6" y="839" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Hủy đăng ký - mất cọc" plantUmlId="uc_6" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Hủy đăng ký - mất cọc" id="EzRNL6KI-fqMMfQgICtc-71">
+          <mxCell parent="EzRNL6KI-fqMMfQgICtc-64" style="ellipse;html=1;fillColor=#FFFDD0;strokeColor=#B22222;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="41" width="183" x="1480.7" y="908" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_7" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="EzRNL6KI-fqMMfQgICtc-72">
+          <mxCell edge="1" parent="EzRNL6KI-fqMMfQgICtc-64" source="EzRNL6KI-fqMMfQgICtc-66" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="EzRNL6KI-fqMMfQgICtc-65">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_8" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="EzRNL6KI-fqMMfQgICtc-73">
+          <mxCell edge="1" parent="EzRNL6KI-fqMMfQgICtc-64" source="EzRNL6KI-fqMMfQgICtc-67" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="EzRNL6KI-fqMMfQgICtc-65">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«include»" plantUmlId="rel_9" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«include»" id="EzRNL6KI-fqMMfQgICtc-74">
+          <mxCell edge="1" parent="EzRNL6KI-fqMMfQgICtc-64" source="EzRNL6KI-fqMMfQgICtc-67" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="EzRNL6KI-fqMMfQgICtc-68">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_10" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="EzRNL6KI-fqMMfQgICtc-75">
+          <mxCell edge="1" parent="EzRNL6KI-fqMMfQgICtc-64" source="EzRNL6KI-fqMMfQgICtc-69" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="EzRNL6KI-fqMMfQgICtc-65">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_11" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="EzRNL6KI-fqMMfQgICtc-76">
+          <mxCell edge="1" parent="EzRNL6KI-fqMMfQgICtc-64" source="EzRNL6KI-fqMMfQgICtc-70" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="EzRNL6KI-fqMMfQgICtc-65">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_12" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="EzRNL6KI-fqMMfQgICtc-77">
+          <mxCell edge="1" parent="EzRNL6KI-fqMMfQgICtc-64" source="EzRNL6KI-fqMMfQgICtc-71" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#B22222;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;labelPosition=right;align=left;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="EzRNL6KI-fqMMfQgICtc-65">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
